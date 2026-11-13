@@ -4,6 +4,7 @@
 namespace Color {
 
     inline const std::string Reset = "\033[0m";
+    inline const std::string Bold  = "\033[1m";
     
     inline const std::string BlackText = "\033[30m";
     inline const std::string WhiteText = "\033[37m";

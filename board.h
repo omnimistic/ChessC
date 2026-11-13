@@ -1,9 +1,19 @@
 #pragma once
 #include "Theme.h"
+#include "Piece.h"
 
 class Board {
-public:
-    Theme currentTheme = Theme::Classic;
-    
-    void printBoard();
-};
+
+    private:
+
+        Piece* grid[8][8]; 
+
+    public:
+        Theme currentTheme = Theme::Classic;
+        
+        Board();
+        ~Board();
+        
+        void setupStartingPosition();
+        void printBoard();
+    };

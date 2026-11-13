@@ -8,6 +8,8 @@ int main() {
     Board board;
     board.currentTheme = Theme::Wood; 
     
+    board.setupStartingPosition();
+    
     board.printBoard();
     
     return 0;
