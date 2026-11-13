@@ -16,5 +16,7 @@ namespace Color {
     inline const std::string Blue     = "\033[44m";
     inline const std::string Cyan     = "\033[46m";
     inline const std::string White    = "\033[47m";
-    inline const std::string DarkGray = "\033[100m"; 
+    inline const std::string DarkGray = "\033[100m";
+    
+    inline const std::string Magenta = "\033[45m";
 }
